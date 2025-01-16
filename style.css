@@ -1,3 +1,10 @@
+:root {
+  font-family: "Alice", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #573A37;
+}
+
 body{
   background-image: url(assets/imgFundo.jpg);
   background-size: cover;
@@ -11,6 +18,11 @@ body{
   border-radius: 24px;
   margin: 48px auto;
 }
+h1, h2{
+  font-size: 50px;
+  color: black ;
+}
+
 
 img{
   border-radius: 18px;
