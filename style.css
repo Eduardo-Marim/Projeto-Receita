@@ -3,6 +3,7 @@
   font-weight: 400;
   font-style: normal;
   color: #573A37;
+  
 }
 
 body{
@@ -17,15 +18,17 @@ body{
   background-color: #F0E8C2;
   border-radius: 24px;
   margin: 48px auto;
+  line-height: 25px;
 }
 h1, h2{
   font-size: 50px;
-  color: black ;
+  color:rgb(77, 46, 6) ;
   
 }
 p{
   line-height:24px;
   margin: 30px;
+  
 }
 
 
