@@ -13,12 +13,13 @@ body{
 
 #page{
   box-sizing: border-box;
-  width: 800px;
+  width: 900px;
   padding: 24px;
   background-color: #F0E8C2;
   border-radius: 24px;
   margin: 48px auto;
   line-height: 25px;
+  border: solid;
 }
 h1, h2{
   font-size: 50px;
@@ -27,19 +28,27 @@ h1, h2{
 }
 p{
   line-height:24px;
-  margin: 30px;
+  margin: 30px 0px ;
+  padding-left: 30px;
+  border-width: 0px;
+  text-align:justify;
   
 }
 
 
 img{
   border-radius: 18px;
+  box-sizing: border-box;
+  border: solid;
+  margin:20px 50px ;
 }
-footer{
+footer, #coracao{
   color: #F0E8C2;
   text-align: center;
   margin-bottom: 48px;
 }
-footer img{
+footer img {
   vertical-align: middle;
+  border: 0px;
+  margin: 0px;
 }
